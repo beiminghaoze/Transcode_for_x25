@@ -2,7 +2,7 @@
 #----------------------------------------------------------------------------------
 # https://www.blackvoid.club/unlocking-plex-hw-transcoding-on-x25-synology-models/
 # https://www.blackvoid.club/content/files/2025/09/x25_hw_transcode_modules.zip
-# https://github.com/beiminghaoze/Transcode_for_x25/blob/main/x25_hw_transcode_modules.zip
+# https://github.com/beiminghaoze/Transcode_for_x25/blob/main/x25_drivers/x25_hw_transcode_modules.zip
 #----------------------------------------------------------------------------------
 
 scriptver="v1.1.1"
@@ -407,7 +407,8 @@ fi
 # modinfo /path/to/your/module.ko
 
 
-url="https://github.com/beiminghaoze/Transcode_for_x25/blob/main/x25_hw_transcode_modules.zip"
+# url="https://www.blackvoid.club/content/files/2025/09/x25_hw_transcode_modules.zip"
+url="https://github.com/beiminghaoze/Transcode_for_x25/blob/main/x25_drivers/x25_hw_transcode_modules.zip"
 zipfile="$scriptpath/x25_drivers/x25_hw_transcode_modules.zip"
 x25_drivers_dir="$scriptpath/x25_drivers"
 
